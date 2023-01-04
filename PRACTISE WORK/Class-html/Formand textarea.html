@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    *{
+        background-color: #758283;
+
+    }
+    h1{
+        color: rgb(255, 0, 0);
+    }
+</style>
+<body>
+    <h1>Form and Text Area in HTML</h1>
+    <p>
+        <form action="#" method="get" required>
+            <label for="Name">First Name</label>
+            <input type="text" name="First Name" id="" placeholder="First name"><br/>
+            <label for="Last Name">Last Name</label>
+            <input type="text" name="Last Name" id="" placeholder="Last name"><br/>
+            Email:- <input type="email" name="Email" id="" placeholder="Email id"><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="" placeholder="password please"><br>
+            Color:- <input type="color" name="Color" id=""><br>
+            Date:- <input type="date" name="date" id="" placeholder="date"><br>
+            <input type="button" value="Submit"><br>
+            Hidden:- <input type="hidden" name="Hidden"><br>
+            <input type="reset" value="Reset"><br>
+           <input type="time" name="Time" id="">
+           <br>
+           <input type="file" name="File" id="">
+           <br>
+           Male <input type="radio" name="Gender" id="" value="male">
+           Female <input type="radio" name="Gender" id="" value="female">
+           <br>
+           Netflix:- 
+           <input type="checkbox" name="Subscription" id="" value="Netflix">
+           sony:- 
+           <input type="checkbox" name="Subscription" id="" value="sony">
+           zee5:- <input type="checkbox" name="Subscription" id="" value="zee5">
+           Prime:- <input type="checkbox" name="Subscription" id="" value="Prime">
+        </form>
+    </p>
+
+    <p> Choose your subscriptions:-
+        <form action="#" method="post"></form>
+        <div>Netflix <input type="checkbox" name="Netflix" id="">  </div>
+        <div>Prime <input type="checkbox" name="Prime" id="">   </div>
+        <div>ZEE5 <input type="checkbox" name="ZEE5" id=""> </div>
+        <div>sony <input type="checkbox" name="sony" id="">  </div>
+         </p>
+
+         <input type="submit" value="Send request">
+         <br>
+       
+         <label for="url">Enter yiur url web address</label>
+         <input type="url" name="url" id="" >
+         <br>
+
+         <Div>
+            <label for="description">Text Area</label>
+            <textarea name="description" id="" cols="30" rows="10" placeholder="textarea"></textarea>
+            Submit:- <button type="submit">submit</button>
+        
+            <br>
+
+           <div>
+            <select name="Subscription" id="" > 
+                <option value="Netflix">Netflix</option>
+                <option value="SOny">SOny</option>
+                <option value="zee5">zee5</option>
+                <option value="colors">colors</option>
+                <option value="Prime">prime</option>
+
+            </select>
+           </div>
+           <br>
+           <div>
+            <select name="Subscription" id="" multiple> 
+                <option value="Netflix">Netflix</option>
+                <option value="SOny">SOny</option>
+                <option value="zee5">zee5</option>
+                <option value="colors">colors</option>
+                <option value="Prime">prime</option>
+
+            </select>
+           </div>
+            <p>
+                <form action="#" method="get">
+                    <select name="color" id="">
+                        <option value="red">C++</option>
+                        <option value="green">Java</option>
+                        <option value="black">javascript</option>
+                        <option value="blue">python</option>
+                    </select>
+                </form>
+            </p>
+         </Div>
+    <p>Audio Setting</p>
+    <div>
+        <audio src="./Bajrang Baan Lata Mangeshkar I Shri Hanuman Chalisa.mp3" controls></audio>
+        <label for="volume">Volume</label>
+        <input type="range" name="volume" id="" min="0" max="11">
+    </div>
+</body>
+</html>

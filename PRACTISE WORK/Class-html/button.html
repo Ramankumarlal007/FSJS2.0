@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        body{
+            background-color: #EDBF69;
+        }
+        button {
+            display: block;
+            color: blue;
+            background-color: aqua;
+            border-radius: 12px ;
+            text-align: center;
+            padding: 12px 20px;
+            box-shadow: 10px 5px 5px red;
+        }
+
+        button:hover{
+            color: pink;
+            background-color: black;
+            box-shadow: 10px 5px 5px 15px rgb(0, 255, 98) inset;
+            border-radius: 20px;
+            transition-duration: 5s;
+            transition-property: color, background-color,border radius;
+        }
+    </style>
+</head>
+<body>
+    <h1>Button tag in Html</h1>
+    <button type="submit">login</button>
+    <br/>
+    <br/>
+    <button>submit</button>
+    <br/>
+    <button type="reset">reset</button>    <br/>
+    <button disabled="disabled">Disabled</button>
+    
+</body>
+</html>

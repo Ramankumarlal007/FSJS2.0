@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position property in CSS layout</title>
+</head>
+<!-- <style>
+    body{
+        background-color: aqua;
+    }
+
+    p{
+        border: 2px solid black; 
+        height: 150px;
+        width: 500px; 
+    }
+    span {
+        display: inline;
+        font-size: 40px;
+        text-align: right;
+        border: 2px solid black;
+        height: 100px;
+        width: 100px;
+        padding-bottom: 300px;
+        /* margin-bottom: 500px; */
+    }
+</style> -->
+<style>
+    .container {
+      height: 1000px;
+      width: 1000px;
+      border: 5px solid rgb(184, 33, 171);
+      border-radius: 5px;
+      /* display: flex;
+      flex-direction: row-reverse; */
+    }
+
+    nav{
+        list-style-type: "\1F44D"; // thumbs up sign;
+        display: Flex;
+    }
+    .position {
+        display: block;
+        margin-right: 50px;
+        margin-top: 25px;
+        height: 50px;
+        width: 50px;
+        border: 2px solid #450ca0;
+        text-align: center;
+        }
+
+        #Two{
+            background-color: rgb(146, 146, 15);
+            position: absolute;
+            top: 50px;
+        }
+</style>
+<body>
+    <!-- <p>this is a <span>cat</span></p> -->
+    <nav class="red">
+        <li class="white">One</li>
+        <li class="white">Two</li>
+        <li class="white">Three</li>
+        <li class="white">Four</li>
+    </nav>
+    <div class="container">
+        <div class="position">One </div>
+        <div class="position" >Two</div>
+        <div class="position" id="Three">Three</div>
+        <div class="position" id="Two">Four</div>
+    </div>
+    
+</body>
+</html>

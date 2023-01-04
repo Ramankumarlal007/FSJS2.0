@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+<style>
+    .container{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        text-align: center;
+        height: 450px;
+        width: 600px;
+        border: 2px solid black;
+        background-color: #f3ecec;
+        flex-wrap: wrap-reverse;
+        /* flex-flow: column-wrap-reverse; */
+        /* align-content: space-around; */
+        /* justify-content: space-between; */
+        /* align-items: stretch; */
+        
+    }
+.item {
+    height: 50px;
+    width: 95px;
+    border: 2px solid orange;
+    list-style: none;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    }
+
+</style>
+
+</head>
+<body>
+    <div>
+        <ul class="container">
+            <li class="item one">one</li>
+            <li class="item Two">Two</li>
+            <li class="item Three">Three</li>
+            <li class="item Four">Four</li>
+            <li class="item Five">Five</li> <li class="item one">one</li>
+            <li class="item Two">Two</li>
+            <li class="item Three">Three</li>
+            <li class="item Four">Four</li>
+            <li class="item Five">Five</li> <li class="item Four">Four</li>
+            <li class="item Five">Five</li> <li class="item one">one</li>
+            <li class="item Two">Two</li>
+            <li class="item Three">Three</li>
+            <li class="item Four">Four</li>
+            <li class="item Five">Five</li>
+        </ul>
+</body>
+</html>

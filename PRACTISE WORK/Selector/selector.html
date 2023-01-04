@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector</title>
+    <style>
+      /* * {
+            background-color: aqua;
+            margin: 0;
+            padding: 0;
+        } */
+
+      /* span {
+            color: #383CC1;
+        }
+        p {
+            background-color: #E21717}
+
+         .red {
+            font-size: larger;
+            color: orangered;
+            
+         }   
+         .white {
+            background-color: bisque;
+         }
+         #red{
+            background-color: #41d62e;
+         } */
+      /* li.red.white.green, p,  #red, .bg-black {
+            background-color: yellowgreen;
+         } */
+
+      /* div nav li {
+            background-color: rgb(255, 0, 157);
+            text-align: center;
+         }
+         div>ul>li{
+            background-color: aquamarine;
+            text-decoration: underline;
+            text-align: center;
+            font-weight:bold;
+           
+         } */
+      .chemistry + p {
+        background-color: brown;
+      }
+      .bg-black + li {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <h1>universal selector</h1>
+  <p>Lorem ipsum dolor sit amet.</p>
+  <p>we all know <span>paragraph</span></p>
+  <span
+    >span is just a span, it is inline element. it is injected inside an element
+    or
+  </span>
+  <ul>
+    <li class="red white">Red</li>
+    <li class="red white blue">Blue</li>
+    <li class="red white green">Blue black</li>
+  </ul>
+  <div class="class">
+    <p>organic chemistry has 60% weightage in mains exam</p>
+    <p>-- mathematics is a good subject</p>
+    <ul>
+      <li class="chemistry physics">inorganic chemistry</li>
+      <li class="chemistry">organic chemistry</li>
+      <li class="chemistry">Physical chemistry</li>
+    </ul>
+    <ol>
+      <li>Lorem, ipsum dolor.</li>
+      <li class="bg-black">Lorem, ipsum dolor.</li>
+      <li>Lorem, ipsum dolor.</li>
+    </ol>
+  </div>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+    voluptatibus possimus nesciunt dolor culpa obcaecati amet corrupti
+    consequuntur dignissimos saepe?
+  </p>
+  <div id="red">Lorem, ipsum dolor.</div>
+  <div class="red">lorem 5</div>
+  <body>
+    <img src="" alt="" />
+    <img src="" alt="" srcset="" />
+    <img src="" alt="" srcset="" />
+    <img src="" alt="" sizes="" srcset="" />
+    <img src="" alt="" sizes="" srcset="" />
+  </body>
+</html>
