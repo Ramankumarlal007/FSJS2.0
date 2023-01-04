@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 5%;
+  /* border: 1px solid green; */
+  height: 15vh;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 35px;
+  margin-left: 50%;
+  justify-content: space-around;
+  /* border: 1px solid rgb(128, 126, 0); */
+}
+
+.home {
+  color: #20bc7e;
+}
+body{
+  max-width: fit-content;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+main section {
+  width: 50%;
+}
+.leftsection {
+  margin-left: 5%;
+  position: relative;
+}
+
+h1 {
+  font-size: 75px;
+}
+p {
+  color: #758283;
+  font-size: 23px;
+}
+.bottomangle {
+  position: absolute;
+  right: 25px;
+}
+button {
+  border: none;
+  color: #ffffff;
+  background-color: #41d399;
+  padding: 15px 35px;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+.stethoscope {
+  position: absolute;
+  overflow: hidden;
+  width: 90%;
+  top: -60px;
+  right: -25px;
+  z-index: -1;
+}
+.mouse {
+  position: absolute;
+  margin-top: 25px;
+  right: -30px;
+}
+
+.greenbox {
+  position: absolute;
+  right: 0;
+  width: 35%;
+  bottom: 30px;
+}
+.yellowBox {
+  position: absolute;
+  right: 0;
+  width: 31%;
+  bottom: 50px;
+}
+.doctor {
+  position: absolute;
+  height: 90%;
+  right: 0;
+  bottom: 0;
+  top: 75px;
+}
